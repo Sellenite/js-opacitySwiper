@@ -11,24 +11,16 @@ html需要以下结构，list内容为轮播内容：
 
 ```html
 <div class="swiper">
-        <div class="list-wrapper">
-            <div class="list">
-                ...
-            </div>
-            <div class="list">
-                ...
-            </div>
-            <div class="list">
-                ...
-            </div>
-            <div class="list">
-                ...
-            </div>
-        </div>
-        <div class="switch-wrapper"></div>
-        <span class="arrow-left">&lt;</span>
-        <span class="arrow-right">&gt;</span>
+    <div class="list-wrapper">
+        <div class="list">...</div>
+        <div class="list">...</div>
+        <div class="list">...</div>
+        <div class="list">...</div>
     </div>
+    <div class="switch-wrapper"></div>
+    <span class="arrow-left">&lt;</span>
+    <span class="arrow-right">&gt;</span>
+</div>
 ```
 
 > 初始化，参数实例：
